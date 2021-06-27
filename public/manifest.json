@@ -1,15 +1,37 @@
 {
-  "short_name": "Nitish Kumar",
   "name": "Nitish Kumar",
+  "short_name": "Nitish Kumar",
+  "description": "Nitish Kumar Portfolio",
   "icons": [
     {
-      "src": "/images/icon.png",
+      "src": "maskable.png",
+      "sizes": "196x196",
       "type": "image/png",
-      "sizes": "1024x1024"
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "icon384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "display": "standalone"
 }

@@ -6,7 +6,8 @@ const experiences = [
     url: "https://gofloaters.com/",
     details: [
       "GoFloaters is a platform that helps you find work and meeting spaces that can be booked instantly.",
-      "Developed a full fledge admin web application for GoFloaters which is used for testing the features, UI, functionalities before release.",
+      "Implemented features in their previous admin web app and solved the performance issues and improved the response time of the web app.",
+      "Developed a full fledge new admin web application for GoFloaters which is used for testing the features, UI, functionalities before release.",
       "Moreover, migrated the entire project from Angular codebase to React codebase and, We kept code modularity, readability, reusability was our first priority and good user experience as well.",
     ],
   },
@@ -40,7 +41,7 @@ const experiences = [
     details: [
       "Worked on various project such as revamping the Institute website, worked on PhD portal created by the club for PhD applicants, specfically made for the college.",
       "Mentored students about the web development, took workshops, seminars on different tools and tech, organized meets for the awareness of the open source programs etc.",
-    ]
+    ],
   },
 ];
 
