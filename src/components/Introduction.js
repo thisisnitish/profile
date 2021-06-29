@@ -109,7 +109,12 @@ const Introduction = () => {
               </Grid>
 
               <Grid item xs={3} sm={1}>
-                <Button variant="contained" color="primary">
+                <Button
+                  variant="contained"
+                  color="primary"
+                  href="https://drive.google.com/file/d/1hZuONti1NqjZvT9M_dtilejhSlbJ5Txy/view?usp=sharing"
+                  target="_blank"
+                >
                   Resume
                 </Button>
               </Grid>
