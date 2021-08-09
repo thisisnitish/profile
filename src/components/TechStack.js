@@ -9,6 +9,8 @@ import {
   SiDjango,
   SiNodeDotJs,
   SiRedux,
+  SiJava,
+  SiGithubactions
 } from "react-icons/si";
 
 const useStyles = makeStyles((theme) => ({
@@ -60,7 +62,7 @@ const TechStack = () => {
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={2}>
             <Button
               size="large"
               startIcon={<SiCplusplus size={30} />}
@@ -70,7 +72,17 @@ const TechStack = () => {
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={2}>
+            <Button
+              size="large"
+              startIcon={<SiJava size={30} />}
+              style={{ color: "#31c1f5" }}
+            >
+              Java
+            </Button>
+          </Grid>
+
+          <Grid item xs={6} sm={2}>
             <Button
               size="large"
               startIcon={<SiNodeDotJs size={30} />}
@@ -80,7 +92,7 @@ const TechStack = () => {
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={2}>
             <Button
               size="large"
               startIcon={<SiReact size={30} />}
@@ -96,11 +108,11 @@ const TechStack = () => {
               startIcon={<SiReact size={30} />}
               style={{ color: "#31c1f5" }}
             >
-              React-Native
+              React Native
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={2}>
             <Button
               size="large"
               startIcon={<SiDjango size={30} />}
@@ -110,13 +122,23 @@ const TechStack = () => {
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={6} sm={2}>
             <Button
               size="large"
               startIcon={<SiRedux size={30} />}
               style={{ color: "#31c1f5" }}
             >
               Redux
+            </Button>
+          </Grid>
+
+          <Grid item xs={6} sm={3}>
+            <Button
+              size="large"
+              startIcon={<SiGithubactions size={30} />}
+              style={{ color: "#31c1f5" }}
+            >
+              Github Actions
             </Button>
           </Grid>
         </Grid>
