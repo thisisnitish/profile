@@ -9,7 +9,6 @@ import {
   SiDjango,
   SiNodeDotJs,
   SiRedux,
-  SiJava,
   SiGithubactions
 } from "react-icons/si";
 
@@ -75,16 +74,6 @@ const TechStack = () => {
           <Grid item xs={6} sm={2}>
             <Button
               size="large"
-              startIcon={<SiJava size={30} />}
-              style={{ color: "#31c1f5" }}
-            >
-              Java
-            </Button>
-          </Grid>
-
-          <Grid item xs={6} sm={2}>
-            <Button
-              size="large"
               startIcon={<SiNodeDotJs size={30} />}
               style={{ color: "#31c1f5" }}
             >
@@ -132,7 +121,7 @@ const TechStack = () => {
             </Button>
           </Grid>
 
-          <Grid item xs={6} sm={3}>
+          <Grid item xs={12} sm={3}>
             <Button
               size="large"
               startIcon={<SiGithubactions size={30} />}
