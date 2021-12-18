@@ -101,7 +101,7 @@ const Introduction = () => {
 
               <Grid item xs={2} sm={1}>
                 <a
-                  href="https://www.instagram.com/thisisnitish30281/"
+                  href="https://www.instagram.com/thisisnitish301/"
                   target="_blank"
                 >
                   <FaInstagram size={35} color="whitesmoke" />
@@ -112,7 +112,7 @@ const Introduction = () => {
                 <Button
                   variant="contained"
                   color="primary"
-                  href="https://drive.google.com/file/d/1SeGSnEoYldqfKVRYKpulaxfO_6gXZVZa/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1XrZkBDWyVrpLIvOToqi-A5bTdGWojEgd/view?usp=sharing"
                   target="_blank"
                 >
                   Resume

@@ -79,7 +79,7 @@ const Contacts = () => {
 
               <Grid item xs={2} sm={1}>
                 <a
-                  href="https://www.instagram.com/thisisnitish30281/"
+                  href="https://www.instagram.com/thisisnitish301/"
                   target="_blank"
                 >
                   <FaInstagram size={35} color="whitesmoke" />

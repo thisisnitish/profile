@@ -1,6 +1,6 @@
 const experiences = [
   {
-    position: "Software Development Intern",
+    position: "Software Engineer Intern",
     company: "GoFloaters: Book Coworking Spaces for work and meetings",
     timeline: "October 2020 - January 2021",
     url: "https://gofloaters.com/",
@@ -12,7 +12,7 @@ const experiences = [
     ],
   },
   {
-    position: "Software Development Intern",
+    position: "Software Engineer Intern",
     company: "Indian Institute of Information Technology, Tiruchirappalli",
     timeline: "September 2020 - October 2020",
     url: "http://www.iiitt.ac.in/",
